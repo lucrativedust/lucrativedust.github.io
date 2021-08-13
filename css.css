@@ -1,4 +1,6 @@
 body {
+    padding: 0px;
+    margin: 0px;
     font-size: 15px;
     /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
     font-family: monospace;
@@ -6,12 +8,17 @@ body {
 }
 #header {
     font-size: 20px;
+    color: white;
+    background-color: black;
+    position: fixed;
     width: 100%;
     padding-bottom: 5px;
-    float: left;
+    /* float: left; */
 }
 #mid {
-    float: left;
+
+    /* float: left; */
+    padding-top: 50px;
     width: 100%;
 }
 .course {
