@@ -1,13 +1,43 @@
 body {
-    font-size: 12px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: blanchedalmond;
+    font-size: 15px;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    font-family: monospace;
+    /* background-color: blanchedalmond; */
 }
 #header {
-    font-size: 16px;
+    font-size: 20px;
+    width: 100%;
+    padding-bottom: 5px;
+    float: left;
 }
-.coursename {
-    width: 200px;
-    height: 70px;
-    padding: 20px;
+#mid {
+    float: left;
+    width: 100%;
+}
+.course {
+    /* width: 200px;
+    height: 70px; */
+    float: inline-start;
+    padding: 5px;
+}
+.coursetitle {
+    font-size: 18px;
+}
+.coursebody {
+    padding: 5px;
+}
+#title {
+    padding-left: 30px;
+    width: 150px;
+    float: left;
+}
+#logo {
+    margin-left: 12px;
+    background-color: black;
+    float: left;
+}
+#logoimg {
+    width: 40px;
+    height: 40px;
+
 }
