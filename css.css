@@ -1,0 +1,8 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.coursename {
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+}
