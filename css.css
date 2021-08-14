@@ -33,7 +33,7 @@ body {
 .coursebody {
     padding: 5px;
 }
-#title {
+.htitle {
     padding-left: 30px;
     width: 150px;
     float: left;
