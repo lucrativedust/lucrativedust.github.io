@@ -15,10 +15,13 @@ body {
     padding-bottom: 5px;
     /* float: left; */
 }
-a {
+#header a {
+    color: white;
+}
+.course a {
     color: darkblue;
 }
-a:visited {
+.course a:visited {
     color: blue;
 }
 
@@ -33,6 +36,15 @@ a:visited {
     height: 70px; */
     float: inline-start;
     padding: 20px;
+    background-color: #d6d6d6c7;
+}
+.course:hover {
+    background-color: #2274d1b0;
+    padding: 100px;
+
+}
+.course:hover .coursetitle {
+    font-size: 25px;
 }
 .coursetitle {
     font-size: 18px;
