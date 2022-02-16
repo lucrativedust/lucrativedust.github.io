@@ -45,6 +45,7 @@ body {
 .course:hover {
     
     animation: coursehover 0.2s;
+    animation-fill-mode: forwards;
 
 }
 @keyframes coursehover {
