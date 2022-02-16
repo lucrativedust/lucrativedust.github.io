@@ -32,16 +32,27 @@ body {
     width: 100%;
 }
 .course {
-    /* width: 200px;
-    height: 70px; */
+    margin: 2em;
+    width: 30%;
+    height: 30%;
+    border: 1px;
+    border-color: black;
+    height: 70px; 
     float: inline-start;
     padding: 20px;
     background-color: #d6d6d6c7;
 }
 .course:hover {
-    background-color: #2274d1b0;
-    padding: 100px;
+    
+    animation: coursehover 0.2s;
 
+}
+@keyframes coursehover {
+    to {
+        background-color: #2274d1b0;
+        padding: 100px;
+
+    }
 }
 .course:hover .coursetitle {
     font-size: 25px;
