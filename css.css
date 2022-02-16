@@ -51,17 +51,16 @@ body {
     padding: 20px;
     background-color: #d6d6d6c7;
     animation: bodyanimation 0.5s ease-in-out 0s infinite normal both;
+    animation: coursehover 0.2s;
 }
 .course:hover {
-    
-    animation: coursehover 0.2s;
-    animation-fill-mode: forwards;
+    background-color: #2274d1b0;
+    padding: 100px;
+    /* animation-fill-mode: both; */
 
 }
 @keyframes coursehover {
     to {
-        background-color: #2274d1b0;
-        padding: 100px;
 
     }
 }
