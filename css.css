@@ -34,7 +34,9 @@ body {
 .course {
     margin: 2em;
     width: 30%;
-    height: 30%;
+    min-height: 30%;
+    /* height: 50%; */
+    max-height: fit-content;
     border: 1px;
     border-color: black;
     height: 70px; 
