@@ -15,6 +15,9 @@ body {
     padding-bottom: 5px;
     /* float: left; */
 }
+a {
+    color: darkblue;
+}
 a:visited {
     color: blue;
 }
@@ -29,7 +32,7 @@ a:visited {
     /* width: 200px;
     height: 70px; */
     float: inline-start;
-    padding: 5px;
+    padding: 20px;
 }
 .coursetitle {
     font-size: 18px;
