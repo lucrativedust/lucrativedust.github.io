@@ -33,6 +33,7 @@ body {
 }
 .course {
     margin: 2em;
+    min-width: fit-content;
     width: 30%;
     min-height: fit-content;
     /* height: 50%; */
