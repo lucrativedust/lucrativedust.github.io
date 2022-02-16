@@ -8,8 +8,8 @@ body {
     animation: bodyanimation 0.5s ease-in-out 0s infinite normal both;
 }
 @keyframes bodyanimation {
-    from {}
-    to {}
+    from {position: inherit;}
+    to {position: inherit;}
 }
 #header {
     font-size: 20px;
@@ -50,6 +50,7 @@ body {
     float: inline-start;
     padding: 20px;
     background-color: #d6d6d6c7;
+    animation: bodyanimation 0.5s ease-in-out 0s infinite normal both;
 }
 .course:hover {
     
