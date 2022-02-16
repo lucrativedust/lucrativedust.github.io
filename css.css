@@ -5,7 +5,7 @@ body {
     /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
     font-family: monospace;
     /* background-color: blanchedalmond; */
-    animation: bodyanimation 0.5s ease-in-out 0s infinite normal both;
+    animation: bodyanimation 1.5s ease-in-out 0s infinite normal both;
 }
 @keyframes bodyanimation {
     from {position: inherit;}
